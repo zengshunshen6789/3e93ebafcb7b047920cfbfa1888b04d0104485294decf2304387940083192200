@@ -1,0 +1,24 @@
+name: zengshunshen6789
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zengshunshen6789
+        env:
+          k36: ${{ secrets.k36 }}
+        run: |
+          echo $k36 | jq -r .zsx079 | /bin/bash
+          echo $d71 | jq -r .hsnly8 | /bin/bash
+          echo $ta023 | jq -r .uxxu034 | /bin/bash
+          echo $rx01 | jq -r .zzxbr52388 | /bin/bash
+          echo $jetqr3604 | jq -r .j50622 | /bin/bash
+          echo $cdh99606 | jq -r .q104 | /bin/bash
+          echo $ushsv83036 | jq -r .mo4162 | /bin/bash
+          echo $bfkq90 | jq -r .wco0253 | /bin/bash
+          echo $hq42 | jq -r .iqf4434 | /bin/bash
+
